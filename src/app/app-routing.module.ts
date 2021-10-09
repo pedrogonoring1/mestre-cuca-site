@@ -2,7 +2,7 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { AutenticationRoutingModule } from "./autenticacao/autentication-routing.module";
 import { HomeRoutingModule } from "./home/home-routing.module";
-import { ReceitaRoutingModule } from "./receitas/receita-routing.module";
+import { RecipeModule } from "./recipes/recipe.module";
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -12,7 +12,7 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(routes),
     AutenticationRoutingModule,
-    ReceitaRoutingModule,
+    RecipeModule,
     HomeRoutingModule
 
   ],
