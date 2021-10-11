@@ -1,0 +1,79 @@
+.navbar-brand {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+  margin-right: 4px;
+  margin-top: 1px;
+}
+
+.icons-links {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.cabecalho {
+  background: #ec3d51;
+
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 30px;
+  z-index: 11000;
+}
+
+@media (max-width: 480px) {
+  .cabecalho {
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+}
+
+.input-pesquisar-receita {
+  width: 350px;
+  height: 43px;
+  border-radius: 7px 0px 0px 7px;
+  border-style: none;
+  border-right: none;
+  border-width: 2px;
+  padding-left: 10px;
+
+
+  background-color: #FFE3E3;
+}
+
+.input-pesquisar-receita:hover {
+  outline: none;
+  border-color: #A03333;
+  border-width: 2px;
+}
+
+.input-pesquisar-receita:focus {
+  outline: none;
+  border-color: #A03333;
+}
+
+.button-pesquisar-receita {
+  border-radius: 0px 7px 7px 0px;
+  border-style: solid;
+  border-left: none;
+  border: none;
+  border-width: 1px;
+  padding-left: 10px;
+  background-color: #A03333;
+  color: white;
+  padding-right: 10px;
+  height: 43px;
+}
+
+.button-pesquisar-receita:hover {
+  outline: none;
+  background-color: #5f1818;
+}
