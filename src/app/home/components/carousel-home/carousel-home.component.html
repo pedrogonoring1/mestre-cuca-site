@@ -1,0 +1,21 @@
+<carousel
+    [cellsToShow]=1
+    [cellWidth]=900
+    [height]=350
+    [loop]=true
+    [autoplay]=true
+    [overflowCellsLimit]=5
+    [pauseOnHover]=false
+    [borderRadius]=50
+    [transitionTimingFunction]="'linear'"
+    >
+  <div class="carousel-cell" *ngFor="let itemCarousel of carousels">
+    <a [href]="itemCarousel.LinkRedirect">
+      <img [src]="itemCarousel.LinkImage" alt="first slide" style="display: block; width: 100%;" class="img-carousel-home">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>{{ itemCarousel.TituleCarousel }}</h3>
+        <p>{{ itemCarousel.TextSecundary }}</p>
+      </div>
+    </a>
+  </div>
+</carousel>
