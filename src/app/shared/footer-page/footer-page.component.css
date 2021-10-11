@@ -1,0 +1,27 @@
+.icon-link-footer {
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.link-footer {
+  margin-right: 33px;
+  text-decoration: none;
+}
+
+.icon-github {
+  width: 20px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.link-github {
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .link-footer {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+}
