@@ -1,0 +1,28 @@
+.ajusta-img {
+    max-width: 90px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.ajusta-img:hover {
+  opacity: 60%;
+  transition: 0.3s;
+}
+
+.nome-categoria {
+  color: rgb(63, 63, 63);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .ajusta-img {
+    max-width: 70px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+  }
+}

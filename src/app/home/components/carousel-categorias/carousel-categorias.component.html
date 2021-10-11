@@ -1,0 +1,11 @@
+<carousel
+      [arrows]=false
+      [height]=110
+      [cellWidth]=90>
+  <div class="carousel-cell d-flex text-center" *ngFor="let itemCarousel of itensCarouselCategory">
+    <a [href]="itemCarousel.LinkRedirect" class="">
+      <img [src]="itemCarousel.LinkImage" class="ajusta-img"> <br>
+      <label for="nome-da-categoria" class="nome-categoria">{{ itemCarousel.NameCategory }}</label>
+    </a>
+  </div>
+</carousel>
