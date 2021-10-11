@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-12 col-md-4 card-hot-recipe" *ngFor="let card of cardsHotRecipes">
+    <a [href]="card.LinkRecipe">
+      <img [src]="card.LinkImageCard" class="ajusta-img-card">
+      <label class="title-receita-card">{{ card.TitleRecipe }}</label> <br>
+    </a>
+    <a [href]="card.LinkPerfilUser">
+      <img [src]="card.ImageUserRecipe" class="ajusta-img-user-card">
+      <label for="auth" class="user-recipe">{{ card.NameUserRecipe }}</label> <img src="https://i.ibb.co/svZ73HX/simbolo-verificado.png" alt="icon-verificad" *ngIf="card.UserVerificad" class="icon-verificad" tooltip="Usuário vertificado">
+    </a>
+  </div>
+</div>

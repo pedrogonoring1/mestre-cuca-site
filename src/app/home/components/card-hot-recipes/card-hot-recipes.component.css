@@ -1,0 +1,52 @@
+.card-hot-recipe {
+  margin-bottom: 40px;
+}
+
+.card-hot-recipe:hover {
+  cursor: pointer;
+}
+
+.ajusta-img-card {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
+.ajusta-img-card:hover {
+  opacity: 75%;
+  transition: 0.3s;
+}
+
+.ajusta-img-user-card {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.title-receita-card {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+  margin-bottom: 5px;
+}
+
+.title-receita-card:hover {
+  cursor: pointer;
+}
+
+.user-recipe {
+  color: rgb(119, 119, 119);
+  font-size: 14px;
+}
+
+.user-recipe:hover {
+  cursor: pointer;
+  color: rgb(43, 43, 43);
+  font-weight: 500;
+}
+
+.icon-verificad {
+  width: 13px;
+  margin-left: 5px;
+}
