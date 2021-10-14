@@ -1,0 +1,104 @@
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.title-recipe {
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(94, 94, 94);
+}
+
+.img-recipe {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.img-user {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.name-user {
+  font-weight: 700;
+  color: rgb(124, 124, 124);
+}
+
+.btn-seguir {
+  border:none;
+  background-color: #F45B5B;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 6px;
+  margin-left: 20px;
+}
+
+.btn-seguir:hover {
+  cursor: pointer;
+  background-color: #d14040;
+  transition: 0.2s;
+}
+
+.icon-informations {
+  font-size: 23px;
+  color: rgb(141, 141, 141);
+  margin-left: 15px;
+  margin-right: 3px;
+}
+
+.text-informations {
+  font-size: 15px;
+  color: rgb(141, 141, 141);
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.text-steps-recipes {
+  margin-top: 40px;
+  font-size: 23px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media (max-width: 560px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 90px;
+    padding-bottom: 10px;
+  }
+
+  .title-recipe {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(94, 94, 94);
+  }
+
+  .img-recipe {
+    border-radius: 10px;
+  }
+
+  .img-user {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 7px;
+  }
+
+  .btn-seguir {
+    margin-top: 20px;
+    margin-left: -1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+  }
+}

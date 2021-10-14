@@ -1,1 +1,57 @@
-<p>listagem-receitas works!</p>
+<div class="container">
+ <div class="row">
+   <div class="col-12">
+    <h3 class="title-recipe">{{ recipe.TitleRecipe }}</h3>
+   </div>
+  </div>
+  <div class="row mt-2">
+    <div class="col-12">
+      <img [src]="recipe.LinkImage" alt="recipe" class="img-fluid img-recipe">
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-12 d-flex d-flex justify-content-between">
+      <div>
+        <img [src]="recipe.User.LinkImage" alt="iamgem-user" class="img-fluid img-user">
+        <label for="name-user" class="name-user">{{ recipe.User.Name }} {{ recipe.User.LastName }}</label> <img src="https://i.ibb.co/svZ73HX/simbolo-verificado.png" alt="icon-verificad" *ngIf="recipe.User.UserVerificad" class="icon-verificad" tooltip="Usuário verificado">
+        <button class="btn-seguir">SEGUIR</button>
+      </div>
+      <div class="d-flex">
+        <span class="material-icons-outlined icon-informations">timer</span><label for="minutos-to-do-recipe" class="text-informations">{{ recipe.Time }}m</label><label for="" class="text-informations d-none d-md-block"> preparo</label>
+        <span class="material-icons-outlined icon-informations">visibility</span><label for="views-of-recipe" class="text-informations">{{ recipe.Views }}</label><label for="" class="text-informations d-none d-md-block"> visualizações</label>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+    <p class="text-steps-recipes">
+      {{ recipe.StepRecipe }}
+      </p>
+      <p class="text-steps-recipes">
+      {{ recipe.StepRecipe }}
+      </p>
+      <p class="text-steps-recipes">
+      {{ recipe.StepRecipe }}
+      </p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 mb-2">
+      <h5>Categorias Relacionadas:</h5>
+    </div>
+  </div>
+  <div class="row mb-5">
+    <div class="col-12">
+      <div class="badge">
+        Churrasco
+      </div>
+      <div class="badge">
+        Almoço
+      </div>
+      <div class="badge">
+        Jantar
+      </div>
+    </div>
+  </div>
+
+</div>
