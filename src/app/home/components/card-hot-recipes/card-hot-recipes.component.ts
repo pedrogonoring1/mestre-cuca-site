@@ -18,7 +18,7 @@ export class CardHotRecipesComponent implements OnInit {
     this.cardsHotRecipes =[];
 
     var card1 = new CardHotRecipesResponse({
-      LinkRecipe: '/not-found',
+      LinkRecipe: '/recipes/listing',
       TitleRecipe: 'Pão de Alho feito na grelha super rápido',
       LinkImageCard: 'https://i.ibb.co/yS4K4sy/teste1.png',
       ImageUserRecipe: 'https://www.superprof.com.br/imagens/anuncios/professor-home-chef-cozinha-aulas-individuais-grupo-nas-areas-confeitaria-panificacao-cozinha-quente.jpg',
@@ -28,7 +28,7 @@ export class CardHotRecipesComponent implements OnInit {
     })
 
     var card2 = new CardHotRecipesResponse({
-      LinkRecipe: '/not-found',
+      LinkRecipe: '/recipes/listing',
       TitleRecipe: 'Bolo de Cenoura com Cobertura de Brigadeiro',
       LinkImageCard: 'https://i.ibb.co/D7Y7tYW/teste2.png',
       ImageUserRecipe: 'https://i.ibb.co/FnVygnJ/test1.png',
@@ -38,7 +38,7 @@ export class CardHotRecipesComponent implements OnInit {
     })
 
     var card3 = new CardHotRecipesResponse({
-      LinkRecipe: '/not-found',
+      LinkRecipe: '/recipes/listing',
       TitleRecipe: 'Lasanha de Panqueca com Brócolis e Molho Branco',
       LinkImageCard: 'https://i.ibb.co/J77f3fZ/teste3.png',
       ImageUserRecipe: 'https://i.ibb.co/dLpqJzJ/test2.png',
@@ -48,7 +48,7 @@ export class CardHotRecipesComponent implements OnInit {
     })
 
     var card4 = new CardHotRecipesResponse({
-      LinkRecipe: '/not-found',
+      LinkRecipe: '/recipes/listing',
       TitleRecipe: 'Talharim com Molho Branco Light',
       LinkImageCard: 'https://i.ibb.co/sjNJKk1/teste4.png',
       ImageUserRecipe: 'https://www.superprof.com.br/imagens/anuncios/professor-home-chef-cozinha-aulas-individuais-grupo-nas-areas-confeitaria-panificacao-cozinha-quente.jpg',
@@ -58,7 +58,7 @@ export class CardHotRecipesComponent implements OnInit {
     })
 
     var card5 = new CardHotRecipesResponse({
-      LinkRecipe: '/not-found',
+      LinkRecipe: '/recipes/listing',
       TitleRecipe: 'Fricassê de Frango',
       LinkImageCard: 'https://i.ibb.co/Pt0khxc/teste5.png',
       ImageUserRecipe: 'https://i.ibb.co/FnVygnJ/test1.png',
@@ -68,7 +68,7 @@ export class CardHotRecipesComponent implements OnInit {
     })
 
     var card6 = new CardHotRecipesResponse({
-      LinkRecipe: '/not-found',
+      LinkRecipe: '/recipes/listing',
       TitleRecipe: 'Moqueca Capixaba - a Legítima 😍',
       LinkImageCard: 'https://i.ibb.co/x3ydjLt/teste6.png',
       ImageUserRecipe: 'https://www.superprof.com.br/imagens/anuncios/professor-home-chef-cozinha-aulas-individuais-grupo-nas-areas-confeitaria-panificacao-cozinha-quente.jpg',
